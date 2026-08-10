@@ -1,24 +1,30 @@
-GIKA SITE — HQ + CLICKABLE
+GIKA — SITE PROFISSIONAL TRILÍNGUE
 
-Esta versão foi refeita com:
-- imagens reexportadas do PDF ORIGINAL em alta qualidade
-- nenhum menu/barra extra
-- somente o menu ORIGINAL do design
-- GIKA / WORK / ABOUT / CV / CONTACT clicáveis
-- categorias do WORK clicáveis
-- DOWNLOAD PORTFOLIO PDF clicável no ABOUT
-- DOWNLOAD CV clicável no CV
-- hello@gika.online clicável
-- @_gika clicável
-- páginas/seções separadas
-- menu repetido removido das páginas internas
-- todos os caminhos preparados para GitHub Pages
+Idiomas:
+🇬🇧 English
+🇧🇷 Português do Brasil
+🇪🇸 Español
 
-UPLOAD:
-1. Abra o ZIP.
-2. Envie TODOS os arquivos de dentro para a raiz do repositório novo.
-3. Settings > Pages > Deploy from a branch > main > /(root).
-4. Aguarde o deploy ficar verde.
+Nesta versão:
+- o layout visual original foi preservado;
+- as fotografias/obras permanecem nas mesmas posições;
+- os textos PT e ES foram reconstruídos dentro do mesmo desenho da versão inglesa;
+- não há textos sobrepostos;
+- não há blocos brancos adicionais fora da composição;
+- as páginas continuam separadas;
+- menu e categorias são clicáveis;
+- Portfolio PDF é clicável no About;
+- CV baixa no idioma correspondente;
+- e-mail e Instagram são clicáveis;
+- as bandeiras ficam no canto superior direito;
+- nenhum arquivo individual ultrapassa 25 MB.
 
-IMPORTANTE:
-Nenhum arquivo individual ultrapassa 25 MB.
+PARA ATUALIZAR O GITHUB
+1. Extraia o ZIP no Mac.
+2. No repositório atual, use Add file > Upload files.
+3. Envie TODOS os arquivos de dentro da pasta.
+4. Confirme a substituição dos arquivos existentes e faça Commit changes.
+5. Aguarde o GitHub Pages terminar o deploy.
+6. Faça uma atualização forçada no navegador: Command + Shift + R.
+
+Não envie o ZIP fechado ao repositório; envie os arquivos extraídos.
