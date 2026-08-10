@@ -37,3 +37,23 @@ body{font-family:Arial,Helvetica,sans-serif}
 @media(max-width:760px){
   .hotspot{min-height:28px}
 }
+
+.language-switch{
+  position:fixed;right:14px;bottom:14px;z-index:1000;
+  display:flex;gap:8px;padding:7px 9px;border:1px solid #e7e7e7;
+  background:rgba(255,255,255,.94);backdrop-filter:blur(8px);
+  border-radius:999px;font-family:Arial,Helvetica,sans-serif
+}
+.language-switch a{font-size:22px;text-decoration:none;line-height:1}
+.language-switch a:hover{transform:scale(1.08)}
+.translation-panel{
+  max-width:1100px;margin:0 auto;padding:26px 5vw 42px;
+  font-family:Arial,Helvetica,sans-serif;color:#111;background:#fff
+}
+.translation-panel h2{margin:0 0 12px;font-size:12px;letter-spacing:.08em}
+.translation-panel p{white-space:pre-line;margin:0;font-size:clamp(16px,1.7vw,24px);line-height:1.42}
+@media(max-width:760px){
+  .language-switch{right:8px;bottom:8px}
+  .language-switch a{font-size:20px}
+  .translation-panel{padding:20px 18px 32px}
+}
