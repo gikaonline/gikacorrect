@@ -1,0 +1,24 @@
+GIKA SITE — HQ + CLICKABLE
+
+Esta versão foi refeita com:
+- imagens reexportadas do PDF ORIGINAL em alta qualidade
+- nenhum menu/barra extra
+- somente o menu ORIGINAL do design
+- GIKA / WORK / ABOUT / CV / CONTACT clicáveis
+- categorias do WORK clicáveis
+- DOWNLOAD PORTFOLIO PDF clicável no ABOUT
+- DOWNLOAD CV clicável no CV
+- hello@gika.online clicável
+- @_gika clicável
+- páginas/seções separadas
+- menu repetido removido das páginas internas
+- todos os caminhos preparados para GitHub Pages
+
+UPLOAD:
+1. Abra o ZIP.
+2. Envie TODOS os arquivos de dentro para a raiz do repositório novo.
+3. Settings > Pages > Deploy from a branch > main > /(root).
+4. Aguarde o deploy ficar verde.
+
+IMPORTANTE:
+Nenhum arquivo individual ultrapassa 25 MB.
