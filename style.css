@@ -11,8 +11,129 @@ body{font-family:Arial,Helvetica,sans-serif}
 .language-switch a[aria-current="page"]{opacity:.45}
 .art-page.cropped{aspect-ratio:2.025/1}
 .art-page.cropped>img{position:absolute;left:0;top:0;width:100%;height:auto;transform:translateY(-12.15%)}
-@media(max-width:760px){
-.language-switch{right:.35%;top:.25%;gap:4px;padding:2px}
-.language-switch a{font-size:14px}
-.hotspot{min-height:28px}
+
+@media (max-width:760px){
+
+  html,body{
+    width:100%;
+    max-width:100%;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    background:#fff;
+  }
+
+  body{
+    -webkit-text-size-adjust:100%;
+    text-size-adjust:100%;
+  }
+
+  .site{
+    width:100%;
+    max-width:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+  }
+
+  .art-page{
+    position:relative;
+    width:100%;
+    max-width:100%;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background:#fff;
+  }
+
+  .art-page>img{
+    display:block;
+    width:100%;
+    max-width:100%;
+    height:auto;
+    margin:0;
+  }
+
+  .art-page.cropped{
+    position:relative;
+    width:100%;
+    aspect-ratio:2.025 / 1;
+    overflow:hidden;
+  }
+
+  .art-page.cropped>img{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    max-width:none;
+    height:auto;
+    transform:translateY(-12.15%);
+    transform-origin:top left;
+  }
+
+  .language-switch{
+    position:absolute;
+    right:6px;
+    top:6px;
+    z-index:50;
+    display:flex;
+    align-items:center;
+    gap:4px;
+    padding:4px 5px;
+    margin:0;
+    background:rgba(255,255,255,.94);
+    border-radius:14px;
+    white-space:nowrap;
+    box-shadow:0 1px 4px rgba(0,0,0,.10);
+  }
+
+  .language-switch a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:28px;
+    height:28px;
+    padding:0;
+    margin:0;
+    font-size:17px;
+    line-height:1;
+    text-decoration:none;
+    -webkit-tap-highlight-color:transparent;
+  }
+
+  .language-switch a[aria-current="page"]{
+    opacity:.45;
+  }
+
+  .hotspot{
+    position:absolute;
+    z-index:30;
+    display:block;
+    background:transparent;
+    border:0;
+    cursor:pointer;
+    -webkit-tap-highlight-color:transparent;
+    touch-action:manipulation;
+  }
+
+  .hotspot:focus-visible{
+    outline:2px solid #111;
+    outline-offset:2px;
+  }
+}
+
+@media (max-width:430px){
+  .language-switch{
+    right:4px;
+    top:4px;
+    gap:2px;
+    padding:3px 4px;
+  }
+
+  .language-switch a{
+    width:25px;
+    height:25px;
+    font-size:15px;
+  }
 }
